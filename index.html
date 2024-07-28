@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foods Restaurant</title>
+    <link rel="stylesheet" text="text/css" href="style.css" />
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+
+    <header>
+        <a href="#" class="logo">Nezuko</a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Welcome To Nezuko Cafe </h1>
+            <h2>Sweet Scoops,<br> Sweet Life.</h2>
+            <a href="#menu" class="btn">Explore</a>
+        </div>
+        <div class="home-img">
+            <img src="img/home-overlay.jpeg " alt="home_img">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/about1.png" alt="about_img">
+        </div>
+
+        <div class="about-text">
+            <h2>Our Journey</h2>
+            <p>Welcome to Nezuko Ice Cream Cafe! Inspired by the beloved character Nezuko, we blend tradition and
+                innovation to craft delightful ice cream using the freshest ingredients.
+                <br><br>
+                From classic favorites to
+                unique, seasonal flavors, each scoop is designed to bring joy and create sweet memories.
+                <br><br>
+                Join us for a cozy, welcoming experience where every bite is a taste of happiness. Thank you for
+                choosing Nezuko Ice Cream Cafe – where delicious moments are made!.
+            </p>
+
+            <a href="#menu" class="btn">Explore</a>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <div class="heading">
+            <h2>Scoops and Shakes</h2>
+        </div>
+
+        <div class="menu-container">
+            <div class="block">
+                <div class="block-img padd-15">
+                    <img src="img/shake1.png" alt="Nezu_Shake">
+                </div>
+                <h3>Nezu Shake</h3>
+                <span>$11.00</span>
+            </div>
+            <div class="block">
+                <div class="block-img padd-15">
+                    <img src="img/scoop1.png" alt="Shinobu_Scoop">
+                </div>
+                <h3>Shinobu Scoop</h3>
+                <span>$11.00</span>
+            </div>
+            <div class="block">
+                <div class="block-img padd-15">
+                    <img src="img/shake2.png" alt="Inosuke_Shake">
+                </div>
+                <h3>Inosuke Shake</h3>
+                <span>$11.00</span>
+            </div>
+            <div class="block">
+                <div class="block-img padd-15">
+                    <img src="img/scoop2.png" alt="Obanai_Scoop">
+                </div>
+                <h3>Obanai Scoop</h3>
+                <span>$11.00</span>
+            </div>
+            <div class="block">
+                <div class="block-img padd-15">
+                    <img src="img/shake3.png" alt="Mitsuri_Shake">
+                </div>
+                <h3>Mitsuri Shake</h3>
+                <span>$11.00</span>
+            </div>
+            <div class="block">
+                <div class="block-img padd-15">
+                    <img src="img/scoop3.png" alt="Gyomei_Scoop">
+                </div>
+                <h3>Gyomei Scoop</h3>
+                <span>$11.00</span>
+            </div>
+            <div class="block">
+                <div class="block-img padd-15">
+                    <img src="img/shake4.png" alt="Makomo_Shake">
+                </div>
+                <h3>Makomo Shake</h3>
+                <span>$11.00</span>
+            </div>
+            <div class="block">
+                <div class="block-img padd-15">
+                    <img src="img/scoop4.png" alt="Giyu_Scoop">
+                </div>
+                <h3>Giyu Scoop</h3>
+                <span>$11.00</span>
+            </div>
+    </section>
+
+    <section class="cta">
+        <h2>We craft quality treats every day.</h2>
+        <a href="#contact" class="btn">Order Now</a>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+
+        <form id="contactForm" action="thankyou.html" method="get">
+            <label for="fname">Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your email.." required>
+
+            <label for="message">Drop Us a Line</label>
+            <textarea id="message" name="message" placeholder="Write something.." required></textarea>
+
+            <input class="btn" type="submit" value="Submit">
+        </form>
+
+        <div class="footer">
+            <br>
+            <p>&copy; 2024 Nezuko Ice Cream Cafe. All rights reserved.</p>
+            <p>Contact us: <a href="mailto:info@nezukoicecream.com">info@nezukoicecream.com</a> | Phone: +1 (123)
+                456-7890</p>
+        </div>
+        </div>
+    </section>
+
+    <script type="text/JavaScript" src="script.js"></script>
+
+</body>
+
+</html>
